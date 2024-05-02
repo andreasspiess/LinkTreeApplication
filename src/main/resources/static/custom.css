@@ -1,0 +1,51 @@
+.btn-social {
+    width: 15rem; !important
+    height: 7rem;
+    margin-bottom: 10px; /* Abstand zwischen den Buttons */
+    text-align: center; /* Text linksbündig ausrichten */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Übergangseffekte */
+}
+
+.btn-social:hover {
+    transform: scale(1.05); /* Button leicht vergrößern beim Hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Schatten hinzufügen */
+}
+
+body {
+    background: url('https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.8); /* leicht durchsichtiger weißer Hintergrund */
+/*    border-radius: 15px; */
+    padding: 20px;
+}
+
+h2 {
+    color: #333; /* dunklere Schriftfarbe für den Titel */
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.profile-container {
+    margin-top: px; /* Abstand von oben, anpassen nach Bedarf */
+}
+
+.profile-picture {
+width: 150px;
+height: 150px;
+object-fit: cover;
+margin-top: -100px;
+
+    border-radius: 50%; /* Macht das Bild rund */
+    border: 3px solid #fff; /* Optionaler Rand */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optionaler Schatten */
+}
+
+.myName {
+    margin-top: 10px; /* Abstand zwischen Bild und Name */
+}
